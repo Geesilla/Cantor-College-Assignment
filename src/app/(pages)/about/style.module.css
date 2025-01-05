@@ -1,0 +1,55 @@
+/* .CoursePage header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.CoursePage header span {
+    background-color: black;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.CourseInfo {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+} */
+
+.AboutPage {
+    display:flex;
+}
+
+.AboutTitle {
+    display:flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.AboutInfo {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.AboutInfo div {
+    margin-top: 15px;
+  }
+
+  .CantorBuildingImage {
+    width:fit-content;
+  margin: 0 auto; /* Centering the container */
+  overflow: hidden;
+  flex: 0; 
+  }
+  .CantorBuilding {
+    object-fit: fill; /* Ensures the image spans the full width */
+    height: auto; /* Maintains the aspect ratio */
+    
+  }
+
+  
