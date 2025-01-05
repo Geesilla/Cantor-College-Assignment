@@ -6,7 +6,9 @@ export async function GET ( request , response ) {
     const { searchParams } = new URL( request.url );
     const id = searchParams.get('id');
     
-    const course = courses.find( ( course ) => course.UcasCode === id );
+    const course = courses.find( ( course ) => {
+       return course.UcasCode === id || course.CourseTitle === id
+    });
     console.log( course )
     return NextResponse.json( course );
 }

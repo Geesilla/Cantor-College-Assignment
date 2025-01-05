@@ -1,0 +1,21 @@
+
+.CoursePage header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.CoursePage header span {
+    background-color: black;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.CourseInfo {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
