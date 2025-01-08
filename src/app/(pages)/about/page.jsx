@@ -8,19 +8,27 @@ export default async function AboutPage ( ) {
         <div className={styles.AboutPage}>
             <header>
                 <div className={styles.CantorBuildingImage}>
-                <Image src="/assets/Images/cantor-building-out.jpg" width={1200} height={300} alt="Picture of Cantor's building" className={styles.CantorBuilding}/>
+                    <h1 className={styles.AboutTitle}> About Us</h1>
                 </div>
-                <h1 className={styles.AboutTitle}> About Us</h1>
             </header>
-            <main>
-                <div className={styles.AboutInfo}>
-                    <p>
-                        Cantor College was established in 1989 to specialize in Computing and Design.   
-                        At Cantor College, we want to give students the education they need to achieve 
-                        their career aims, leaving them equipped with the knowledge, 
-                        skills and experience to succeed. 
-                        
-                    </p>
+            <div className={ styles.AP_Top }>
+                    <div>
+                        <Image src="/assets/Images/cantor-building-out.jpg" 
+                        width={1200} height={300} alt="Picture of Cantor's building" 
+                        className={styles.CantorBuilding}/>
+                    </div>
+                    <div className={styles.AboutInfo}>
+                        <p>
+                            Cantor College was established in 1989 to specialize in Computing and Design.   
+                            At Cantor College, we want to give students the education they need to achieve 
+                            their career aims, leaving them equipped with the knowledge, 
+                            skills and experience to succeed. 
+                            
+                        </p>
+                    </div>
+            </div>
+         
+            <div className={ styles.AP_Bottom }>
                 <div>
                     <p>
                         Cantor College gives you the opportunities that can give you the edge when you 
@@ -30,15 +38,22 @@ export default async function AboutPage ( ) {
                     </p>
                 </div>
                 <div>
-                    <p>
+                      <Image src="/assets/Images/CantorAtrium4.jpg" 
+                        width={1200} height={300} alt="Picture of Cantor's building" 
+                        className={styles.CantorBuilding}/>
+                </div>
+               
+            </div> 
+            <div className={ styles.aboutQuote }>
+                <div>
+                    <p> <span> " </span> 
                         Whatever your ambitions, our learning and support can help to get the most 
                         out of your time with Cantor College, both as a student and in your future 
-                        career.
+                        career. <span> " </span>
                     </p>
                 </div>
-                </div>
-            </main>
+                    
+            </div>
         </div>
-
     )
 }

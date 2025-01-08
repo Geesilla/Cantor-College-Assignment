@@ -12,13 +12,13 @@ export default function Header  ( ) {
     return (
         <header>
             <nav className={styles.navbar}>
-                <h1> 
+                <div className={ styles.logo }> 
                     <Image
                     src="/assets/images/CantorLogo.png"
-                    width={50}
-                    height={50}
+                    width={80}
+                    height={80}
                     alt="Cantor College Logo" /> 
-                </h1>
+                </div>
 
                 <div className={styles.burger} onClick={ () => setMenuOpen( prev => !prev )}>
                     <div className={`${styles.line} ${menuOpen ? styles.rotate1 : ""}`} />
@@ -27,9 +27,9 @@ export default function Header  ( ) {
                 </div>
 
                 <ul className={`${styles.navLinks} ${menuOpen ? styles.open : ""}`}>
-                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/index">Home</Link></li>
                     <li><Link href="/about">About</Link></li>
-                    <li><Link href="#services">Business</Link></li>
+                    <li><Link href="/business">Business</Link></li>
                     <li><Link href="/courses">Courses</Link></li>
                 </ul>
             </nav>

@@ -21,6 +21,21 @@
 
 .AboutPage {
     display:flex;
+    flex-direction: column;
+    column-gap: 25px;
+    row-gap: 30px;
+}
+
+.AP_Top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.AP_Bottom {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
 }
 
 .AboutTitle {
@@ -30,7 +45,6 @@
 }
 
 .AboutInfo {
-
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -42,14 +56,27 @@
 
   .CantorBuildingImage {
     width:fit-content;
-  margin: 0 auto; /* Centering the container */
-  overflow: hidden;
-  flex: 0; 
-  }
-  .CantorBuilding {
+    margin: 0 auto; /* Centering the container */
+    overflow: hidden;
+    flex: 0; 
+}
+
+.CantorBuilding {
     object-fit: fill; /* Ensures the image spans the full width */
     height: auto; /* Maintains the aspect ratio */
-    
-  }
+}
 
-  
+.aboutQuote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.aboutQuote div {
+    width: 75%;
+}
+
+.aboutQuote span {
+    font-size: 3em; margin: 0 3px;
+}
