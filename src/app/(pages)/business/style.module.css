@@ -1,0 +1,35 @@
+.BusinessPage {
+        display:flex;
+        flex-direction: column;
+        column-gap: 25px;
+        row-gap: 30px;
+    
+}
+
+.BP_Top {
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   column-gap: 20px;
+}
+
+.services > div {
+        margin: 20px 0;
+}
+
+.services ol {
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+}
+
+
+.explanation > div h3 {
+        margin: 20px 0;
+}
+
+.explanation ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+}

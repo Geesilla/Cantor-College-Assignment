@@ -52,9 +52,9 @@ export default async function CoursesPage ( ) {
                     
            </div>
          
-            <div>
+            <div className={styles.courses }>
                 <h2> Courses </h2>
-                <ul>
+                <ul className={ styles.courseList }>
                     { courses.map( ( course , index ) => 
                         <li key={ index }> 
                             <Link href={`/courses/${ course.UcasCode || course.CourseTitle }`} className={ styles.courseLink }> 
