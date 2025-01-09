@@ -6,7 +6,7 @@ export default function FacilitiesPage(){
         <div className={styles.FacilitiesPage}>
                     <header>
                         <div>
-                        <h1 className={styles.FacilitiesTitle}>Facilities</h1>
+                        <h1 className={styles.FacilitiesTitle}>Student Facilities</h1>
                         </div>              
                     </header>
                     <div className={styles.FP_Top}>
@@ -14,8 +14,8 @@ export default function FacilitiesPage(){
                             {/* <Image></Image> */}
                         </div>
         
-                        <div className={styles.BusinessInfo}>
-                            <div>
+                        <div className={styles.FacilitiesInfo}>
+                            <div className={styles.FacilitiesSubHeading}>
                                 <h2>Explore Cantor College: World-Class Facilities for Your Success</h2>
                             </div>
                             <p>
@@ -25,10 +25,13 @@ export default function FacilitiesPage(){
                                  you’re studying computing, design, or technology, our campus offers everything you need to excel.
                             </p>
                         </div>
+                        <div className={styles.ClassroomImage}>
+                            <Image src="/assets/Images/computing_classroom.jpg" width={600} height={400} alt="Image of Computer Lab"/>
+                        </div>
                         <div>
                     <ol>
                         <div>
-                            <h3>Our Facilities</h3>
+                            <h3 className={styles.FacilitiesHeading}>Our Facilities</h3>
                         </div>
                         <div>
                         <li>

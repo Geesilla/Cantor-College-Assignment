@@ -34,9 +34,9 @@ export default function Header  ( ) {
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/business">Business</Link></li>
                     <li><Link href="/courses">Courses</Link></li>
-                    <li><Link href="/students">Students</Link></li>
+                    <li><Link href="/facilities">Student Facilities</Link></li>
                     <li><Link href="/Staff">Staff</Link></li>
-                    <li><Link href="/facilities">Facilities</Link></li>
+                    <li><Link href="/Location">Find Us</Link></li>
                 </ul>
             </nav>
         </header>
