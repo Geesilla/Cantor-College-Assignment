@@ -11,11 +11,11 @@ export default function Location () {
                 </header>
                     <div className={styles.LP_Top}>
                         <div>
-                                <Image src="/assets/Images/SHUSpaceCitymap.jpg" width={700} height={500} alt="Image of Cantor map"/>
+                                <Image src="/assets/Images/SHUSpaceCitymap.jpg" width={700} height={500} alt="Image of Campus map"/>
                         </div>
                     </div>
                     <div>
-                        <h3>How to find us:</h3>
+                        <h3>Our Address</h3>
                     </div>
                     <div>
                         <ul>
@@ -23,10 +23,9 @@ export default function Location () {
                             <li>Main Street</li>
                             <li>Sheffield</li>
                             <li>SC4 2BB</li>
-                            
-                        </ul>   
-                        
+                        </ul>
                     </div>
+
             </div>
     )
 }
