@@ -3,17 +3,18 @@ import styles from "./styles.module.css"
 
 export default function Learning () {
     return (
-                     <div className={styles.LocationPage}>
-                         <header>
-                             <div>
-                                 <h1 className={styles.LocationTitle}>Rules Governing the Use of the Library and Resource Centre</h1>
-                             </div> 
-                         </header>
-                             <div className={styles.LP_Top}>
-                                 <div>
-                                         <Image src="/assets/Images/CantorLectureTheatre5.jpg" width={700} height={500} alt="Image of Lecture Theatre"/>
-                                 </div>
-                             </div>
+                     <div className={styles.LearningPage}>
+                       
+                        <div className={styles.LP_Top}>
+                            <div>
+                                <Image src="/assets/Images/CantorLectureTheatre5.jpg" fill alt="Image of Lecture Theatre"/>
+                            </div>  
+                            <header>
+                                 <h1 className={styles.LearningTitle}>Rules Governing the Use of the Library and Resource Centre</h1>
+                            </header>
+                        </div>
+
+                        <div className={ styles.LearningContent }>
                              <div>
                                  <h3>Introduction</h3>
                              </div>
@@ -47,9 +48,9 @@ export default function Learning () {
                              <div>
                                 <h3>Rules</h3>
                              </div>
-                             <div>
+                             <div className={ styles.rules }>
+                                <h3>Access:</h3>
                                 <ol>
-                                    <h3>Access:</h3>
                                     <li>The use of Library and Resource Centre facilities is normally limited to use for the educational and other purposes of the College.</li>
                                     <li>All individuals wishing to become members of the Library and Resource Centre must comply with the registration procedures.  These include
                                          an undertaking to abide by Library and Resource Centre rules.
@@ -66,7 +67,9 @@ export default function Learning () {
                                     <p>
                                         <i>Users of the Library and Resource Centre are reminded that they must be willing to show  ID cards or other identification when requested to do so by College staff.</i>
                                     </p>
-                                    <h3>Use of Facilities</h3>
+                                </ol>  
+                                <h3>Use of Facilities</h3>
+                                <ol>
                                     <li>
                                         The Library and Resource Centre is not responsible for loss of, or damage to, the personal belongings of its users and visitors.  Users must take reasonable
                                         precautions against theft of their belongings, and must not leave belongings unattended even for a very short period. Study tables/PCs may not be reserved by
@@ -94,7 +97,7 @@ export default function Learning () {
                                     </li>
                                 </ol>
                              </div>
-                             
-                     </div>
+                        </div>
+                 </div>
     )
 }

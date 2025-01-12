@@ -25,3 +25,17 @@
     justify-content: center;
     margin-left: 20px;
 }
+
+.FacilitiesList ol {
+    margin: 20px 0;
+}
+
+.FacilitiesList li {
+    margin: 10px 0;
+}
+
+.FacilitiesContent {
+    display: flex ;
+    flex-direction: row;
+    margin: 10px ;
+}

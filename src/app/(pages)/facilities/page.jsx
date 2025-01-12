@@ -33,7 +33,7 @@ export default function FacilitiesPage(){
                         <div>
                             <h3 className={styles.FacilitiesHeading}>Our Facilities</h3>
                         </div>
-                        <div>
+                        <div className={styles.FacilitiesList}>
                         <li>
                             <strong>Advanced Computing Labs </strong>
                             <p>
@@ -109,10 +109,9 @@ export default function FacilitiesPage(){
                         </li>
                     </div>
                     </ol>
-                    <div>
+                    <div className={styles.FacilitiesContent}>
                         <h3>Experience Cantor College</h3>
-                    </div>
-                    <div>
+                
                         <p>
                             Cantor College’s facilities are designed to enhance your learning experience and support your academic and personal growth.
                              We invite you to explore our campus, discover our resources, and make the most of everything we have to offer.

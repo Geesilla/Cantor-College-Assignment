@@ -10,9 +10,17 @@ export default function Home() {
         <meta name="description" content="Welcome to the Cantor homepage" />
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
-      <header className={styles.header}>
-        <h1>Welcome to the Cantor College Website</h1>
-      </header>
+      <div className={ styles.banner}>
+          <Image src="/assets/Images/CantorAtrium3.jpg" 
+          fill 
+          style={{ objectFit: 'cover'}}
+           alt={""}
+            />
+            <header className={styles.header}>
+            <h1>Welcome to the Cantor College Website</h1>
+        </header>
+      </div>
+      
       <main className={styles.main}>
         <p>Use this page to introduce your content and engage users.</p>
       </main>

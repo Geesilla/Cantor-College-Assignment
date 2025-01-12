@@ -9,15 +9,12 @@ export default function Location () {
                         <h1 className={styles.LocationTitle}>How to Find Us</h1>
                     </div> 
                 </header>
-                    <div className={styles.LP_Top}>
-                        <div>
-                                <Image src="/assets/Images/SHUSpaceCitymap.jpg" width={700} height={500} alt="Image of Campus map"/>
-                        </div>
+                <div className={ styles.container }>
+                     <div className={styles.image}>
+                           <Image src="/assets/Images/SHUSpaceCitymap.jpg" fill alt="Image of Campus map"/>
                     </div>
-                    <div>
-                        <h3>Our Address</h3>
-                    </div>
-                    <div>
+                    <div className={ styles.location }>
+                        <h3>Our Address</h3>      
                         <ul>
                             <li>Cantor College</li>
                             <li>Main Street</li>
@@ -25,7 +22,7 @@ export default function Location () {
                             <li>SC4 2BB</li>
                         </ul>
                     </div>
-
+                </div>
             </div>
     )
 }
